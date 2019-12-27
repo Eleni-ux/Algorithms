@@ -43,7 +43,7 @@ public class Dijkstra {
 			/**
 			 * To update the distance or do the relaxation check the following conditions 1.
 			 * if there is a straight path from the source vertex to a vertex 2. If its
-			 * distance from the source is already calculated 3. If its current value is
+			 * distance from the source is not already calculated 3. If its current value is
 			 * less than from the calculated distance
 			 */
 			for (int v = 0; v < length; v++) {
